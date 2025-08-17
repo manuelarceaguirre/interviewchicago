@@ -1,0 +1,11 @@
+@"
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
+
+git add .gitignore
+git commit -m "Add Python .gitignore"
+git push origin main
